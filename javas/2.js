@@ -1,6 +1,7 @@
 const menu = document.getElementById('nv');
 const seta = document.getElementById('seta');
 const img1 = document.getElementById('img1');
+const img2 = document.getElementById('img2');
 
 seta.addEventListener('click', () =>{
     menu.classList.toggle('hidden');
@@ -46,4 +47,5 @@ window.addEventListener("scroll", function()
     img1.classList.toggle('giro35', window.scrollY > 340);
     img1.classList.toggle('giro36', window.scrollY > 350);
     img1.classList.toggle('giro37', window.scrollY > 360);
+    img2.classList.toggle('fixar', window.scrollY > 330);
 });
