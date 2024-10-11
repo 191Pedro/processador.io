@@ -206,8 +206,8 @@ nav.hidden{
     transform: rotate(360deg);
 }
 #img2{
-    height: 80px;
-    width: 80px;
+    height: 40px;
+    width: 40px;
     position: fixed;
     left: 100%;
     top: 100%;
