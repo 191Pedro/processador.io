@@ -63,8 +63,8 @@ a{
     background-color: #202020bd;
 }
 #seta{
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     transition: 1s;
 }
 #seta.hidden
@@ -75,7 +75,7 @@ nav.hidden{
     position: fixed;
     top: -10px;
     left: 0%;
-    transform: translateY(-80%);
+    transform: translateY(-75%);
     .botões{
         filter: none;
     }
