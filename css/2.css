@@ -204,6 +204,19 @@ nav.hidden{
 #img1.giro37{
     transform: rotate(360deg);
 }
+#img2{
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    left: 100%;
+    top: 100%;
+    transform: translate(-100%, -100%);
+    opacity: 0;
+    transition: 0.5s;
+}
+#img2.fixar{
+    opacity: 1;
+}
 
 /* Textos */
 
