@@ -213,6 +213,7 @@ nav.hidden{
     top: 100%;
     transform: translate(-100%, -100%);
     opacity: 0;
+    background-color: #1f1f23;
     transition: 0.5s;
 }
 #img2.fixar{
